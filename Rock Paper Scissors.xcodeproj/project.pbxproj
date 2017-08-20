@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BC2351231F4727DE00BB5BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2351221F4727DE00BB5BB9 /* main.m */; };
+		BC23512B1F47299E00BB5BB9 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BC23512A1F47299E00BB5BB9 /* RPSGame.m */; };
+		BC23512E1F4729A900BB5BB9 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = BC23512D1F4729A900BB5BB9 /* RPSTurn.m */; };
+		BC2351311F47516000BB5BB9 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2351301F47516000BB5BB9 /* RPSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		BC23511F1F4727DE00BB5BB9 /* Rock Paper Scissors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Rock Paper Scissors"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2351221F4727DE00BB5BB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2351291F47299E00BB5BB9 /* RPSGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		BC23512A1F47299E00BB5BB9 /* RPSGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		BC23512C1F4729A900BB5BB9 /* RPSTurn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		BC23512D1F4729A900BB5BB9 /* RPSTurn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		BC23512F1F47516000BB5BB9 /* RPSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		BC2351301F47516000BB5BB9 /* RPSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				BC2351221F4727DE00BB5BB9 /* main.m */,
+				BC2351291F47299E00BB5BB9 /* RPSGame.h */,
+				BC23512A1F47299E00BB5BB9 /* RPSGame.m */,
+				BC23512C1F4729A900BB5BB9 /* RPSTurn.h */,
+				BC23512D1F4729A900BB5BB9 /* RPSTurn.m */,
+				BC23512F1F47516000BB5BB9 /* RPSController.h */,
+				BC2351301F47516000BB5BB9 /* RPSController.m */,
 			);
 			path = "Rock Paper Scissors";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2351231F4727DE00BB5BB9 /* main.m in Sources */,
+				BC23512B1F47299E00BB5BB9 /* RPSGame.m in Sources */,
+				BC23512E1F4729A900BB5BB9 /* RPSTurn.m in Sources */,
+				BC2351311F47516000BB5BB9 /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
